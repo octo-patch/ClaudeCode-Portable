@@ -43,7 +43,7 @@ App-owned runtimes, provider settings, chat history, attachments, caches, and lo
 | Feature | Details |
 |---|---|
 | **Official Claude Code** | Uses Anthropic's official CLI and Agent SDK — no replacement agent engine |
-| **9 AI Providers** | NVIDIA NIM · DeepSeek · OpenRouter · Google Gemini · Anthropic · OpenAI · Ollama · LM Studio · Custom API |
+| **10 AI Providers** | NVIDIA NIM · DeepSeek · MiniMax · OpenRouter · Google Gemini · Anthropic · OpenAI · Ollama · LM Studio · Custom API |
 | **Portable Runtime** | Node.js, Claude Code, caches, settings, and app data stay in the project folder |
 | **Studio Dashboard** | Streaming chat, Markdown, code highlighting, compact tool steps, approvals, attachments, and diagnostics |
 | **Shared Claude History** | GUI and portable terminal sessions use real Claude Code conversation IDs and can resume the same history |
@@ -123,6 +123,7 @@ Pressing Enter selects the dashboard.
 |---|---|---|
 | **NVIDIA NIM** | Chat Completions adapter | [build.nvidia.com](https://build.nvidia.com) |
 | **DeepSeek** | Anthropic-compatible API | [platform.deepseek.com](https://platform.deepseek.com) |
+| **MiniMax** | Chat Completions adapter | [platform.minimax.io](https://platform.minimax.io) |
 | **OpenRouter** | Anthropic-compatible API | [openrouter.ai](https://openrouter.ai) |
 | **Google Gemini** | Chat Completions adapter | [aistudio.google.com](https://aistudio.google.com) |
 | **Anthropic Claude** | Native Messages API / terminal login | [console.anthropic.com](https://console.anthropic.com) |
