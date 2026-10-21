@@ -134,6 +134,14 @@ Pressing Enter selects the dashboard.
 
 > **Non-Claude models are experimental and are not supported by Anthropic.** Tool calling, images, context limits, resume behavior, and other Claude Code features depend on the selected model and provider.
 
+### MiniMax
+
+The MiniMax preset defaults to **MiniMax-M3.1-Flash** and offers **MiniMax-M3** as the second model. Both have a 1,000,000-token context window. Existing saved models and manually entered IDs remain unchanged. Use `https://api.minimax.io/v1` globally or `https://api.minimaxi.com/v1` in China with the matching API key.
+
+The built-in Chat Completions adapter uses adaptive thinking by default for these models. Flash always thinks and defaults to `max` reasoning effort; its supported effort values are `low`, `medium`, `high`, `xhigh`, and `max`. M3 also accepts disabled thinking and ignores effort. Flash does not accept `service_tier` or `reasoning_split=false`. The dashboard preserves its existing image attachment support; video input is not implemented by this adapter.
+
+See MiniMax's [model documentation](https://platform.minimax.io/docs/guides/models-intro.md) and [Chat Completions API](https://platform.minimax.io/docs/api-reference/text-chat-openai.md).
+
 ## Custom OpenAI-Compatible Provider
 
 OpenAI-compatible providers can use:
